@@ -102,6 +102,6 @@ Tutorial - [Getting Started with VSCode](https://code.visualstudio.com/docs)
 Video - [Various Introductory Video to get up and running quickly](https://code.visualstudio.com/docs/getstarted/introvideos)
 
 
-<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/LearningPlans/blob/master/media/document-3x.png?raw=true"> End Notes</h3>
+<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIInstall.png?raw=true"> End Notes</h3>
 
 <sup>1</sup> Learning styles - Wikipedia.org – [https://en.wikipedia.org/wiki/Learning\_styles Sept 28,2019](https://en.wikipedia.org/wiki/Learning_styles%20Sept%2028,2019)
