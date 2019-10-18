@@ -1,3 +1,18 @@
+#The base for the .gitignore is the node version from github
+#The top is other items I added for this project
+
+#VueJS
+.DS_Store
+
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor settings
+.vscode
+
 # Logs
 logs
 *.log
