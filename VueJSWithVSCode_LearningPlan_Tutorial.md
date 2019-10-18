@@ -84,15 +84,35 @@ In this section the following resources will help to setup your project and get 
 
 My first step is usually setting up my GitHub repository.  I do this through the [GitHub Website](https://github.com/), create an empty readme.md, and a .gitignore file based on **Node**, then do a pull in GitHub Desktop.  This provides a VScode folder.
 
-[Vue Command Line Interface (CLI)](https://cli.vuejs.org/) provides the framework plumping or tooling and starter code and setup.  Installing through NPM si as shown in the lined article.
+[Vue Command Line Interface (CLI)](https://cli.vuejs.org/) provides the framework plumping or tooling and starter code and setup.  Installing through NPM si as shown in the lined article.  It is a globally installed npm package and provides the vue command in your terminal.
+
+The following command will install the CLI into the VSCode envrionment when run in a terminal window - <code>npm install -g @vue/cli</code>
+
+Run the command. 
+![CLI Install Format](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIInstall.png?raw=true)
 
 
-![CLI Install Format](https://github.com/steveyoungca/VueJSWithVSCode/blob/master/media/CLIInstall.png)
+
+[Creating a Project](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) - This regerence walks you through initializing your created project folder with the CLI UI code.  You can also create the directory from scratch using <code>vue create ProjectName</code> if you have not started with a project in GitHub as our walkthorugh has shown here.
+
+Now to setup the VueJS Project in this directory, type the command <br> <code>vue ui</code> in a terminal window.
+![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/vue_ui_Command.png?raw=true)
+
+
+The directory before you run th ecommand, will look like this.
+![Directory Structure Before](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/DirectoryBefore.png?raw=true)
+
+
+
+
+
 
 ===========================================================================================
 
-<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIInstall.png?raw=true"> More Resources & References</h3>
-Screen Grab with 
+
+
+
+<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/LearningPlans/blob/master/media/bookmark-3x.png?raw=true"> More Resources & References</h3>
 
 [Using Vue in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial)
 
