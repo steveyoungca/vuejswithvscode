@@ -1,4 +1,4 @@
-# VueJSwithVSCode
+# vuejswithvscode
 This is the code used in the VueJS Learning Plan
 # Learning Paths: Setting up VueJS with VSCode
 
@@ -80,7 +80,9 @@ There are a number of extensions for VSCode that I always install in a new syste
 
 - Setup the Template for Coding in your VSCode project.
 
-In this section the following resources will help to setup your project and get ready to code.
+In this section the following resources will help to setup your project and get ready to code. 
+
+**Note** : If you have the directory from GitHub, you already have a README.MD file.  This process will create another ReadME.MD file with notes from the setup.  For the time being, rename your current README.MD file to README_Orig.MD
 
 My first step is usually setting up my GitHub repository.  I do this through the [GitHub Website](https://github.com/), create an empty readme.md, and a .gitignore file based on **Node**, then do a pull in GitHub Desktop.  This provides a VScode folder.
 
@@ -89,7 +91,7 @@ My first step is usually setting up my GitHub repository.  I do this through the
 The following command will install the CLI into the VSCode envrionment when run in a terminal window - <code>npm install -g @vue/cli</code>
 
 Run the command. 
-![CLI Install Format](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIInstall.png?raw=true)
+![CLI Install Format](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIInstall.png?raw=true)
 
 
 
@@ -97,21 +99,33 @@ Run the command.
 
 Now to setup the VueJS Project in the directory we created from GitHub, type the command <br> <code>vue create .</code> in a terminal window.  Note the "." at the end. If you do not have that, it will create subfolder, so this command will create the files in the directory we currenlty have.
 
-![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/vue_ui_Command.png?raw=true)
+![Create UI Code base](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/vue_ui_Command.png?raw=true)
 
-![Select Lint](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Lint.png?raw=true)
+![Select Lint](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIStep1CreateInCurrent.png?raw=true)
+ 
+![Select Lint](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIStep1Lint.png?raw=true)
 
-![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Process.png?raw=true)
+![Create UI Code base](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIStep1Process.png?raw=true)
 
-![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Complete.png?raw=true)
+![Create UI Code base](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIStep1Complete.png?raw=true)
+
+![Create UI Code base](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/CLIStep1completeProcess.png?raw=true)
+
  
 The directory before you run th ecommand, will look like this.
-![Directory Structure Before](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/DirectoryBefore.png?raw=true)
+![Directory Structure Before](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/DirectoryBefore.png?raw=true)
 
+The directory after you run the command, will look like this.
+![Directory Structure After](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/DirectoryAfter.png?raw=true)
 
+Now that we have the command complete, run the following <code>npm run serve</code>
 
+![Run The Server](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/npmrunservergrab.png?raw=true)
 
+Select the LocalHost:8080 link.  This will bring up the page in a browser.  If you change a file, the code will reload.
 
+You should see the following;
+![Run The Server](https://github.com/steveyoungca/vuejswithvscode/blob/master/media/screengrabs/finalscreen.png?raw=true)
 
 =========================================================================================== 
 
