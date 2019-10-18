@@ -93,12 +93,18 @@ Run the command.
 
 
 
-[Creating a Project](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) - This regerence walks you through initializing your created project folder with the CLI UI code.  You can also create the directory from scratch using <code>vue create ProjectName</code> if you have not started with a project in GitHub as our walkthorugh has shown here.
+[Creating a Project](https://cli.vuejs.org/guide/creating-a-project.html#vue-create) - This regerence walks you through initializing your created project folder with the CLI UI code.  You can also create the directory from scratch using <code>vue create projectname</code> if you have not started with a project in GitHub as our walkthorugh. This command will create a directory with that ProjectName.  Note that in the currently verison of Vue, your project name cannot have any capital letters.
 
-Now to setup the VueJS Project in this directory, type the command <br> <code>vue ui</code> in a terminal window.
+Now to setup the VueJS Project in the directory we created from GitHub, type the command <br> <code>vue create .</code> in a terminal window.  Note the "." at the end. If you do not have that, it will create subfolder, so this command will create the files in the directory we currenlty have.
+
 ![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/vue_ui_Command.png?raw=true)
 
+![Select Lint](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Lint.png?raw=true)
 
+![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Process.png?raw=true)
+
+![Create UI Code base](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIStep1Complete.png?raw=true)
+ 
 The directory before you run th ecommand, will look like this.
 ![Directory Structure Before](https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/DirectoryBefore.png?raw=true)
 
@@ -107,8 +113,7 @@ The directory before you run th ecommand, will look like this.
 
 
 
-===========================================================================================
-
+=========================================================================================== 
 
 
 
