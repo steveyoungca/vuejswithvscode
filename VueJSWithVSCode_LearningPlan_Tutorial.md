@@ -86,12 +86,13 @@ My first step is usually setting up my GitHub repository.  I do this through the
 
 [Vue Command Line Interface (CLI)](https://cli.vuejs.org/) provides the framework plumping or tooling and starter code and setup.  Installing through NPM si as shown in the lined article.
 
-<img src="https://github.com/steveyoungca/VueJSWithVSCode/blob/master/media/key-2x.png?raw=true">
 
+![CLI Install Format](https://github.com/steveyoungca/VueJSWithVSCode/blob/master/media/CLIInstall.png)
 
 ===========================================================================================
 
-<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/LearningPlans/blob/master/media/bookmark-3x.png?raw=true"> More Resources & References</h3>
+<h3><img style="float: left; margin: 0px 15px 15px 0px;" src="https://github.com/steveyoungca/VueJSwithVSCode/blob/master/media/screengrabs/CLIInstall.png?raw=true"> More Resources & References</h3>
+Screen Grab with 
 
 [Using Vue in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/vuejs-tutorial)
 
